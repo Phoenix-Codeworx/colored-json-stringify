@@ -50,7 +50,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This package is compatible with Bun. To run the tests with Bun:
 ```bash
-bun test
+bun run test:bun
 ```
 
 ## Acknowledgements
