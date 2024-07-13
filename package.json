@@ -1,0 +1,31 @@
+{
+  "name": "colored-json-stringify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha dist/test/test.js"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "color",
+    "chalk",
+    "console"
+  ],
+  "author": "brent@thebuddhalodge.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^20.14.10",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "typescript": "^5.5.3"
+  }
+}
